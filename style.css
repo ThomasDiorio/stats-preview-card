@@ -45,7 +45,7 @@ p {
 .card-text-part {
     background-color: hsl(244, 38%, 16%);
     border-radius: 10px 0 0 10px;
-    padding: 30px 70px 90px 50px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -79,6 +79,7 @@ p {
 
 .stat-num {
     color: hsl(0, 0%, 100%);
+    font-size: 1.5rem;
 }
 
 stat-title {
@@ -96,26 +97,30 @@ stat-title {
         flex-shrink: 1;
     }
 
+    h1 {
+        margin-bottom: 0;
+    }
+
      .card-text-part {
          flex: 0 1;
          order: 1;
+         text-align: center;
          align-items: center;
          border-radius: 0 0 10px 10px;
      }
 
      .card-image-part {
          border-radius: 10px 10px 0 0;
-         flex-shrink: 1;
      }
 
      .card-image-part img {
         border-radius: 10px 10px 0 0;
         width: 100%;
         height: 100%;
-        justify-content: center;
      }
 
      .stats {
          flex-direction: column;
+         margin: 20px 0;
      }
  }
